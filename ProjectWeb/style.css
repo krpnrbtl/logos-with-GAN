@@ -1,0 +1,121 @@
+body {
+    font-family: 'Lato';
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Catamaran';
+    font-weight: 800 !important;
+  }
+
+  .header{
+    height: 83px;
+    position: relative;
+    z-index: 998;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  }
+
+  .header .resim{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 1px;
+    position: relative;
+  }
+
+  .content{
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .content .container {
+    background: url('image/arkaplan.png');
+    width: 55% ; 
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    margin-bottom: 30px;
+  }
+  
+  .content .container .icerik {
+    background: #fff;
+    padding: 25px;
+    color: black;
+    height: -webkit-fill-available;
+    text-align:center;
+  }
+  
+  .content .container .icerik .divider {
+    height: 2px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+  }
+  
+  .content .container .icerik .logo .picture {
+    width: 20%;
+    float: left;
+    border-style: outset;
+    border-color: lightsalmon;
+    margin: 15px;
+  }
+
+  .content .container .icerik .logo .pictureson {
+    width: 20%;
+    border-style: outset;
+    border-color: lightsalmon;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .content .container .icerik .logo .pictureson .demo {
+     font-size: 30px;
+     font-family: fantasy;
+  }
+
+  .content .container .icerik .logo .picture .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+  }
+
+  .content .container .icerik .input {
+    height: 30px;
+    width: 400px;
+    border-style: outset;
+    border-color: lightsalmon;
+    margin-bottom: 15px;
+  }
+
+  .content .container .icerik .poststyle .post {
+    margin: 15px;
+  }
+
+  .content .container .icerik .poststyle .post .colorpicker {
+    width: 400px;
+    height: 30px;
+  }
+
+  .content .container .icerik .buton {
+    height: 36px;
+    width: 100px;
+    /* color: white; */
+    background-color: lightsalmon;
+    border-style: outset;
+    border-color: lightsalmon;
+    margin-top: 15px;
+  }
+
+  .content .baslik {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    border-style: outset;
+    border-color: lightsalmon;
+    margin-bottom: 20px;
+  }
